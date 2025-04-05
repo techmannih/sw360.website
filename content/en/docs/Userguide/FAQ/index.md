@@ -4,41 +4,77 @@ linkTitle: "FAQ"
 weight: 21
 ---
 
-##### **Q**: Who should be listed as Moderator?
+##### 
 
-**A**: Moderator are persons who need to review changes done on certain items (project, component, release or attachment) by persons who do not have the user right to actually do these changes. For BT moderators are the persons with the role 'Software Clearing Site Representative'.
+---
 
-##### **Q**: Who should be listed as Contributor?
+### **What is SW360?**  
+SW360 is an open-source software project licensed under EPL-2.0. It provides both a web application and a repository to collect, organize, and make available information about software components. SW360 serves as a central hub for managing software components, tracking licenses, security vulnerabilities, and enforcing compliance across the development process.
 
-**A**: By default only the owner (or creator) of an item (project, component, release) is allowed to modify this item. Often it is useful that additional people are allowed to edit an item. These additional people (software architects, developers, additional experts) should get listed as contributors.
+### **Who should use SW360?**  
+SW360 is designed for organizations that use third-party software components in their projects. It’s especially useful for quality managers, software developers, legal teams, software architects, and R&D managers who need to ensure software compliance, manage component data, and track software vulnerabilities.
 
-##### **Q**: I have changed a project, component, release or attachment, but SW360 does not show the changes?
+### **What problems does SW360 solve?**  
+SW360 helps organizations with:
+- Verifying third-party software compliance (license, security, export control, etc.)
+- Managing software components and their qualities
+- Providing visibility into the components used across projects and products
+- Automating compliance processes such as legal, security (SBOM), and IP assessments
 
-**A**: It might be that you have tried to change something that needs to be review by someone else. In such cases a so called 'Moderation Request' is generated. A Moderator needs to approve your changes. Go to the Home view an check the box 'My Task Submissions', the project, component, or release should be listed there.
+### **What are the core features of SW360?**  
+Core features include:
+- Component tracking and management
+- License compliance management
+- Security vulnerability tracking
+- End-to-end compliance toolchain (including integration with tools like FOSSology)
+- API access for seamless integration with DevOps tools
 
-##### **Q**: What should I enter in the field 'Visibility'.
 
-**A**: Visibility controls which group of people is allowed to see a project. The default setting is 'Everyone', i.e. everyone within an organisation can see the project and all its releases.
 
-##### **Q**: How can I change the 'Clearing State' of a release?
+### **I'm having issues logging in. What should I check?**  
+Verify that your credentials are correct and that your account has the appropriate access rights. Ensure your browser is not blocking cookies or session data, and check that your network connection is stable.
 
-**A**: There is no direct way to do it. If there is no clearing report available, the clearing state will be 'New'. If a clearing report available it will be 'Clearing report available'. If at least one clearing report has been approved, the clearing state will be 'Approved'.
+### **I can't log in to SW360. What's the issue?**  
+Login issues may be caused by incorrect credentials, session timeouts, or browser settings blocking cookies. Verify your credentials and check your browser’s privacy settings.
 
-##### **Q**: I can't find a specific release inside my project – what can I do?
+### **SW360 is running slow. What can I do?**  
+If SW360 is slow, try clearing your browser cache, ensuring a stable network connection, and checking server load. If the problem persists, contact your system administrator for further support.
 
-**A**: You can sort each column by clicking on the column name, i.e. you can sort the entries by name, project origin, clearing state, mainline state or project mainline state – normally that helps finding a certain release.
+### **I encountered an unexpected error while using SW360. How should I troubleshoot it?**  
+Record the error message, check system logs, and refer to SW360 documentation or community forums for guidance. If unresolved, contact the SW360 support team for assistance.
 
-##### **Q**: I can't delete my component called 'Tom's Test Component'.
+### **How can I report a bug or request a feature in SW360?**  
+You can submit bug reports and feature requests via the SW360 issue tracker or directly contact the support team.
 
-**A**: Do not use special characters like single or double quotes. To be able to delete such a component or release you'll first have to rename it…
 
-##### **Q**: What is Copyleft Effect?
+### **Who should be listed as a Moderator?**  
+Moderators are individuals who need to review changes made to specific items such as projects, components, or releases. They typically have higher access rights to review and approve changes. In SW360, moderators play a role similar to the "Software Clearing Site Representative."
 
-**A**: **Copyleft** effect is the reverse idea of **copyright**. Goal is that software licensed under such license is always free and can never get a privatised software asset. The user gets the freedom to run, copy, modify and distribute the software, but it is not possible to add any further restrictions. This implies that **modified software** must also be free and becomes available to the community.
+### **Who should be listed as a Contributor?**  
+Contributors are individuals who need to modify an item (e.g., project, component, release). These are typically people like software architects, developers, or other experts who are allowed to contribute to the project's data.
 
-##### **Q**: Different Classification of the Open Source Licenses.
+### **I have changed a project, component, release, or attachment, but SW360 does not show the changes?**  
+If your changes require moderation, they will need to be approved by a Moderator. You can check the status of your submissions by going to the "My Task Submissions" section on the Home view.
 
-**A**: There are hundreds of OSS licenses, the following table will give a brief overview about the most common OSS licenses, the risks and the obligations that need to be fulfilled when using them:
+### **What should I enter in the field 'Visibility'?**  
+The "Visibility" field determines who can view a project. The default setting is "Everyone," meaning the project is visible to everyone within the organization. You can adjust visibility to control access based on the audience.
+
+### **How can I change the 'Clearing State' of a release?**  
+The clearing state changes based on the status of clearing reports. If no report is available, the state is "New." Once a clearing report is available, the state is "Clearing Report Available," and if approved, it is marked as "Approved."
+
+### **I can't find a specific release inside my project. What can I do?**  
+You can sort each column (e.g., by name, project origin, clearing state) to help locate specific releases more easily.
+
+### **I can't delete my component called 'Tom's Test Component'.**  
+Special characters like single or double quotes in component names can cause issues. Rename the component to remove special characters before trying to delete it.
+
+### **What is the Copyleft Effect?**  
+
+**Copyleft** effect is the reverse idea of **copyright**. Goal is that software licensed under such license is always free and can never get a privatised software asset. The user gets the freedom to run, copy, modify and distribute the software, but it is not possible to add any further restrictions. This implies that **modified software** must also be free and becomes available to the community.
+
+### **Different Classification of the Open Source Licenses.**  
+
+There are hundreds of OSS licenses, the following table will give a brief overview about the most common OSS licenses, the risks and the obligations that need to be fulfilled when using them:
 
 | | License Class | License Name(s) | Risks | Obligations |
 | --- | --- | --- | --- | --- |
